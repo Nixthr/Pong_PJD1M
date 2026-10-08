@@ -994,6 +994,7 @@ GameObject:
   - component: {fileID: 915711063}
   - component: {fileID: 915711062}
   - component: {fileID: 915711065}
+  - component: {fileID: 915711066}
   m_Layer: 0
   m_Name: PLAYER
   m_TagString: Untagged
@@ -1152,6 +1153,19 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &915711066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915711061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2dc1daa025436d47b265b79f6f145ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerPaddle
+  speed: 5
 --- !u!1 &916724093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,7 +1636,7 @@ Transform:
   m_GameObject: {fileID: 1622929189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -0.014004946, z: 0}
+  m_LocalPosition: {x: 0.005, y: -0.014004946, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
