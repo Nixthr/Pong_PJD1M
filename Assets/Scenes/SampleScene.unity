@@ -1561,7 +1561,7 @@ GameObject:
   - component: {fileID: 1622929191}
   - component: {fileID: 1622929193}
   m_Layer: 0
-  m_Name: swapball_0
+  m_Name: swapball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
