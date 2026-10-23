@@ -1654,7 +1654,7 @@ CircleCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 7152f155af7d72f419271afa49b4f4b7, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1719,7 +1719,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6b15dc8598aa41459b2ee236d1c1bb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SwapBallScript
-  ballSpeed: 5
+  ballSpeed: 7
+  rotationBallSpeed: 360
 --- !u!1 &1948057228
 GameObject:
   m_ObjectHideFlags: 0
