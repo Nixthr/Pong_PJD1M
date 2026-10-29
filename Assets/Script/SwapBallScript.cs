@@ -10,6 +10,7 @@ public class SwapBallScript : MonoBehaviour
 
     [SerializeField] private float ballSpeed;
     [SerializeField] private float rotationBallSpeed = 360f;
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -44,6 +45,6 @@ public class SwapBallScript : MonoBehaviour
         transform.Rotate(0f, 0f, rotationBallSpeed * Time.deltaTime);
     }
 
-
+    
 
 } 
