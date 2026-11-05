@@ -854,6 +854,7 @@ GameObject:
   - component: {fileID: 781717649}
   - component: {fileID: 781717648}
   - component: {fileID: 781717650}
+  - component: {fileID: 781717651}
   m_Layer: 0
   m_Name: LEFT WALL
   m_TagString: Untagged
@@ -982,6 +983,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &781717651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781717647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36fa403836e9e44897d3df969973ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wall
 --- !u!1 &915711061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,6 +1190,7 @@ GameObject:
   - component: {fileID: 916724095}
   - component: {fileID: 916724094}
   - component: {fileID: 916724096}
+  - component: {fileID: 916724097}
   m_Layer: 0
   m_Name: RIGHT WALL
   m_TagString: Untagged
@@ -1305,6 +1319,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &916724097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916724093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b36fa403836e9e44897d3df969973ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wall
 --- !u!1 &1224761614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,7 +1590,7 @@ GameObject:
   - component: {fileID: 1622929195}
   m_Layer: 0
   m_Name: swapball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1752,8 +1778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   playerScore: 0
   aiScore: 0
-  playerScoreText: {fileID: 0}
-  aiScoreText: {fileID: 0}
+  playerScoreText: {fileID: 664800914}
+  aiScoreText: {fileID: 1948057230}
 --- !u!4 &1727133149
 Transform:
   m_ObjectHideFlags: 0
